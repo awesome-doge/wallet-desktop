@@ -1,6 +1,9 @@
 name: C/C++ CI Ubuntu 18.04 x86-64 TON Desktop wallet compile
 
-on: [pull_request,workflow_dispatch]
+on:
+  push:
+    branches:
+      - master
 
 jobs:
   build:

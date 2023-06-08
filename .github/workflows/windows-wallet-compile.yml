@@ -1,6 +1,9 @@
 name: C/C++ CI Windows TON Desktop wallet compile
 
-on: [pull_request,workflow_dispatch]
+on:
+  push:
+    branches:
+      - master
 
 defaults:
    run:
